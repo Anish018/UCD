@@ -5,6 +5,11 @@
     .right{
         
     }
+    .hero-body-text{
+        margin-bottom: 30px;
+        font-size: 22px;
+        color: #66645E;
+    }
     .hero-text{
         font-size: 60px;
         margin-bottom: 30px;
@@ -22,26 +27,47 @@
         background-color: #71A894;
         color: white;
         border: none;
-        padding: 10px;
+        font-size: 17px;
+        border-radius: 6px;
+        padding: 18px;
     }
 }
 .align1{
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin-right: 10%;
-    margin-bottom: 50px;
+    padding-left: 20%;
+    
 }
 .sec2{
     margin-top: 80px;
     margin-bottom: 80px;
-    .left, .center, .right{
-        width: 50%;
+    .tile{
+        width: 32.3%;
         text-align: center;
-        margin-left: 10%;
+        box-shadow: 0px 2px 8px rgb(117, 117, 117);
        
+    }
+    .align{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-div{
+        text-align: center;
+
+        .head{
+            font-size: 40px;
+           
+        }
+        .text{
+            padding: 40px;
+        }
+    }
+    .bottom-div{
+        display: flex;
+        justify-content: space-between;
     }
 }
 .sec3{
@@ -55,7 +81,6 @@
         font-size: 40px;
     }
     .right{
-        margin-left: 80px;
         width: 40%;
         text-align: center;
         display: flex;
@@ -71,5 +96,30 @@
             flex-direction: row;
         }
     }
+}
+.sec4{
+    .profile-details{
+        display: flex;
+    flex-direction: row;
+    }
+    .left{
+        width: 30%;
+    }
+    .txt{
+        padding-left: 5px;
+    }
+    .l{
+        display: flex;
+    }
+    .vote-btn{
+        width: fit-content;
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px 30px 40px;
+        
+    
+    }
+   
 }
     
